@@ -1,7 +1,7 @@
 #ifndef _BMP_HH
 #define _BMP_HH
 
-#include "lib/easybmp/EasyBMP.h"
+#include "lib/EasyBMP.h"
 
 using namespace std;
 
