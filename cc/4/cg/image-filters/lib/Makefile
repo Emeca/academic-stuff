@@ -1,7 +1,7 @@
 CC = g++
 CFLAGS = -O3 -pipe -fomit-frame-pointer -funroll-all-loops -s
 
-EASYBMP_DIR = $(shell realpath $(shell pwd)/../../library-easybmp)
+EASYBMP_DIR = $(shell realpath $(shell pwd)/../../libeasybmp-1.06)
 
 all: $(EASYBMP_DIR)/EasyBMP.cpp
 	$(CC) $(CFLAGS) -c $(EASYBMP_DIR)/EasyBMP.cpp
