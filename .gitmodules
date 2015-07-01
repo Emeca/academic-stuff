@@ -1,4 +1,0 @@
-[submodule "4/cg/library-easybmp"]
-	path = 4/cg/library-easybmp
-	url = git@github.com:ederrm/easybmp.git
-	branch = 1.06

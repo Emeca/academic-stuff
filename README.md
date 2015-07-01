@@ -1,1 +1,2 @@
-# cc-university-stuff
+Academic Stuff
+==============
