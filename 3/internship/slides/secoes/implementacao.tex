@@ -1,0 +1,92 @@
+\renewcommand{\titulo}{Implementação}
+\section{\titulo}
+
+\renewcommand{\titulo}{Modelo Proposto}
+\subsection{\titulo}
+\begin{frame}{\titulo}
+\figura{Modelo Proposto}{modelo}{img/modelo}{0.3}
+\end{frame}
+
+\renewcommand{\titulo}{Protótipo Desenvolvido}
+\subsection{\titulo}
+\begin{frame}{\titulo}
+\figura{Protótipo desenvolvido}{implementacao}{img/implementacao}{0.3}
+\end{frame}
+
+\renewcommand{\titulo}{Hardware de Controle}
+\subsection{\titulo}
+\begin{frame}{\titulo}
+\figura{\textit{Hardware} de Controle}{hardwaredecontrole}{img/hardwaredecontrole}{0.75}
+\end{frame}
+
+\renewcommand{\titulo}{libmodbus}
+\subsection{\titulo}
+\begin{frame}{\titulo}
+\begin{itemize}
+\item \texttt{modbus.h};
+\item \texttt{mbdialer.c};
+\item \texttt{commun.c};
+\item \texttt{mbm.c};
+\item \texttt{mbs.c};
+\end{itemize}
+\end{frame}
+
+\begin{frame}{Funções Implementadas}
+\begin{itemize}
+\item 65: ligar o dispositivo;
+\item 66: desligar o dispositivo;
+\item 67: consultar status;
+\end{itemize}
+\end{frame}
+
+\subsection{Unidade de Controle (Escravo)}
+\begin{frame}{\textit{Hardware} da Unidade de Controle}
+\begin{itemize}
+\item Processador: Geode 200 Mhz;
+\item Memória: 128 MB;
+\item Disco Rígido: Compact Flash 256 MB;
+\end{itemize}
+\end{frame}
+
+\begin{frame}{\textit{Software} da Unidade de Controle}
+\begin{itemize}
+\item Debian GNU/Linux etch 4.0;
+\item Kernel Linux 2.6.18-5-686;
+\item Servidor SSH 4.6.p1;
+\item Biblioteca C Padrão 2.6.1;
+\item libmodbus 0.0.4;
+\end{itemize}
+\end{frame}
+
+\subsection{Mestre/Servidor}
+\begin{frame}{\textit{Hardware} do Mestre}
+\begin{itemize}
+\item Processador: AMB Sempron 2800+ 1600 Mhz;
+\item Memória: 512 MB;
+\item Disco Rígido: Seagate 7200 RPM 300 GB;
+\end{itemize}
+\end{frame}
+
+\begin{frame}{\textit{Software} do Mestre}
+\begin{itemize}
+\item Debian GNU/Linux etch 4.0;
+\item Kernel Linux 2.6.18-5-686;
+\item Cliente SSH 4.6.p1;
+\item Biblioteca C Padrão 2.6.1;
+\item libmodbus 0.0.4;
+\item Apache Web Server 2.2.6;
+\item PHP 5.2.4;
+\item Mysql 5.0.45;
+\item CakePHP 1.1.18.5850;
+\end{itemize}
+\end{frame}
+
+\begin{frame}{Interface de Comando}
+\begin{center}
+\texttt{avl@pdm:\~{}\$ mbm -e 1 -d 1 -f 65}
+\end{center}
+\end{frame}
+
+\begin{frame}{Interface Web}
+\figura{Interface Web}{web}{img/web}{0.22}
+\end{frame}

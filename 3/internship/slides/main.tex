@@ -1,0 +1,46 @@
+\documentclass{beamer}
+
+% pacotes 
+\usepackage[utf8x]{inputenc}
+\usepackage[brazilian]{babel}
+\usepackage{lmodern}
+
+\input{tema}
+
+% configurações
+\title[Est\'agio Supervisionado I]{Est\'agio Supervisionado I}
+\author[Eder Ruiz Maria]{Eder Ruiz Maria \\
+\scriptsize{Orientador: Prof. Antônio Marcos Massao Hachisuca}}
+\institute{Universidade Estadual do Oeste do Paraná}
+\date{28 de novembro de 2008}
+
+\setcounter{secnumdepth}{1}     % configura a profundidade de itens
+\setcounter{tocdepth}{1}        % da table of contents
+
+% comandos
+\newcommand{\figura}[4]{
+\begin{figure}[hbt]
+	\centering
+	\includegraphics[scale=#4]{#3}
+	\caption{\scriptsize{#1}}
+	\label{fig:#2}
+\end{figure}
+}
+
+\newcommand{\titulo}{}
+
+\begin{document}
+
+\frame{\titlepage}
+
+\begin{frame}{Sumário}
+	\tableofcontents
+\end{frame}
+
+\input{secoes/introducao}  % introducao, objetivo, motivação
+\input{secoes/modelo}      % comparacao entre os modelos
+\input{secoes/email}       % mecanismo do email
+\input{secoes/ferramentas} % ferramentas utilizadas
+\input{secoes/fim}         % conclusão, trabalhos futuros, agradecimentos e perguntas
+
+\end{document}
