@@ -1,0 +1,52 @@
+Unioeste - Campus de Foz do Iguaçu
+Curso de Ciência da Computação
+Disciplina: Computação Gráfica - 4° Ano
+Professor: Claudio R. M. Mauricio
+
+           /**********************************/
+           /*Trabalho 3 de Computação Gráfica*/
+           /**********************************/
+
+04/08/2006 - Definição do Trabalho
+11/09/2006 - Entrega do Trabalho
+
+Realizar uma pesquisa e elaborar um documento com todos os conceitos que serão usados
+no trabalho(Pesquisa Bibliográfica).
+Implementar um aplicativo  que permita a aplicação  de filtros (definição  abaixo) em
+uma imagem qualquer e que o resultado da aplicação possa ser salvo em uma nova imagem 
+sem alteração da imagem original.
+Entregar em formato digital via email, o documento elaborado, o arquivo  executável e 
+o código fonte.
+No cabeçalho do email de entrega do trabalho usar a frase "Trabalho 3 de CG - Nome do 
+aluno", onde nome do aluno deve ser substituído pelo seu nome.
+Usar o endereço crmmauricio@gmail.com
+
+Itens para implementação:
+
+ - Conversão para escala de cinza; (apostila em inglês, item 2.c)
+ - Threshold;
+ - Filtro passa alta básico;
+ - Filtro da média (passa baixa); 3x3, 5x5, 7x7
+ - Filtro da mediana;
+ - Filtragem High-Boost (ênfase em alta frequência);
+ - Operadores de Sobel;
+ - Gradiente de Roberts;
+ - Detecção de bordas;(apostila em inglês, item 2.a)
+ - Extração de cor; (apostila em inglês, item 2.b)
+ - Informar o número de pixels "extraídos".
+ - Informar a cor do pixel apontado pelo mouse. 
+
+Caso sejam  constatadas cópias  de trabalhos,  os alunos envolvidos terão suas notas 
+atribuidas em 0.0 não havendo segunda chance para entrega.
+
+Dúvidas podem ser solucionadas por email(crmmauricio@gmail.com), ou no Lab. Pesquisa.
+
+
+Bibliografia recomendada:
+ - GONZALES, R.C. and WOODS, R. E.. Digital Image Processing. Addison-Wesley Publishing 
+Company
+ - Pratt, William K.; Digital Image Processing, Third Edition. John Willey & Sons, inc.
+ - Notas de aula;
+ - Apostila fornecida na aula.
+
+Prof. Claudio R. M. Mauricio
