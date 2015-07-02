@@ -1,0 +1,39 @@
+\documentclass{beamer}
+
+
+%=====[pacotes]=========================================================
+\usepackage[utf8x]{inputenc}
+\usepackage[brazilian]{babel}
+
+\input{tema}
+
+
+%=====[configurações]===================================================
+\newcommand{\titulo}{Sistema Baseado em Conhecimento}
+\newcommand{\subtitulo}{Detec\c c\~ao de Problemas El\'etricos em \'Areas Residenciais}
+
+\title[\titulo]{\titulo}
+\subtitle[\subtitulo]{\subtitulo}
+\author[André, Eder, Paulo]{André da Silva Barbosa\\ Eder Ruiz Maria \\ Paulo Leonardo Benatto}
+\institute{Universidade Estadual do Oeste do Paraná}
+\date{\today}
+
+
+\begin{document}
+
+\frame{\titlepage}
+
+%\section{Sumário}
+\begin{frame}{Sumário}
+%	\tableofcontents[curretsection]
+	\tableofcontents[pausesections]
+\end{frame}
+
+\input{secoes/introducao}
+\input{secoes/objetivo}
+\input{secoes/especialistas}
+\input{secoes/metodosdeaquisicao}
+\input{secoes/conclusoes}
+\input{secoes/perguntas}
+
+\end{document}
