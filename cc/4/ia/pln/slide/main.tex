@@ -1,0 +1,47 @@
+\documentclass{beamer}
+
+
+%=====[pacotes]=========================================================
+\usepackage[utf8x]{inputenc}
+\usepackage[brazilian]{babel}
+
+\input{tema}
+
+
+%=====[configurações]===================================================
+\title[Processamento de Linguagem Natural]{Processamento de Linguagem Natural}
+\author[Eder Ruiz Maria \and Paulo Leonardo Benatto]{Eder Ruiz Maria \and Paulo Leonardo Benatto}
+\institute{Universidade Estadual do Oeste do Paraná}
+\date{\today}
+
+\setcounter{secnumdepth}{1}     % configura a profundidade de itens
+\setcounter{tocdepth}{1}		% da table of contents
+
+
+%=====[configurações]===================================================
+\newcommand{\figura}[2]{
+\begin{figure}[hbt]
+	\centering
+	\includegraphics[scale=#2]{#1}
+\end{figure}
+}
+
+\newcommand{\titulo}{}
+
+\begin{document}
+
+\frame{\titlepage}
+
+\begin{frame}{Sumário}
+	\tableofcontents[curretsection]
+\end{frame}
+
+\input{secoes/introducao}
+\input{secoes/objetivo}
+\input{secoes/escrita}
+\input{secoes/fala}
+\input{secoes/processo}
+\input{secoes/aplicacoes}
+\input{secoes/fim}
+
+\end{document}
